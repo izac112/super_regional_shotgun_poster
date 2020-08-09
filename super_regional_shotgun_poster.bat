@@ -1,0 +1,2 @@
+@echo off
+python super_regional_shotgun_poster.py
