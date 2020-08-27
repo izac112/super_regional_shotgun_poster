@@ -7,12 +7,6 @@ from pynput.keyboard import Key, Controller as KeyboardController
 kb = KeyboardController()
 
 ##Functions##
-# presses space
-def chat_space():
-    kb.press(Key.space)
-    kb.release(Key.space)
-
-
 # presses enter
 def chat_enter():
     kb.press(Key.enter)
